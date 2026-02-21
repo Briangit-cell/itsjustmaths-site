@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ITSJUSTMATHS Tutoring</title>
+  <style>
+    body {
+      font-family: 'Open Sans', Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      line-height: 1.6;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #0a2a43;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+    header p {
+      margin: 5px 0;
+      font-size: 1.2rem;
+    }
+    nav {
+      background: #0a2a43;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      color: #ffd700;
+    }
+    .hero {
+      background: #ffd700;
+      color: #0a2a43;
+      text-align: center;
+      padding: 50px 20px;
+    }
+    .hero h2 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+    .cta-button {
+      background: #0a2a43;
+      color: #fff;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      font-weight: bold;
+    }
+    .cta-button:hover {
+      background: #333;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    section h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #0a2a43;
+    }
+    .features {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      gap: 20px;
+    }
+    .feature {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      flex: 1 1 250px;
+      text-align: center;
+    }
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      max-width: 500px;
+      margin: auto;
+    }
+    .contact-form input, .contact-form textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+    .contact-form button {
+      background: #0a2a43;
+      color: #fff;
+      padding: 12px;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: pointer;
+    }
+    .contact-form button:hover {
+      background: #333;
+    }
+    footer {
+      background: #0a2a43;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>ITSJUSTMATHS</h1>
+    <p>Affordable Online Maths Tutoring – R150/hour</p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <div class="hero">
+    <h2>Master Maths. Build Confidence. Achieve Results.</h2>
+    <a href="#contact" class="cta-button">Book Your Lesson</a>
+  </div>
+
+  <section id="about">
+    <h2>About Us</h2>
+    <p>
+      ITSJUSTMATHS is dedicated to helping A-Level and NSC students excel in mathematics and statistics. 
+      With clear, step-by-step explanations and exam-focused lessons, we make maths simple, structured, and confidence-building.
+    </p>
+  </section>
+
+  <section id="services">
+    <h2>Our Services</h2>
+    <div class="features">
+      <div class="feature">
+        <h3>Exam-Focused Tutoring</h3>
+        <p>Past Paper Mastery, Step-by-Step Explanations, Confidence Building.</p>
+      </div>
+      <div class="feature">
+        <h3>Specializations</h3>
+        <p>A-Level Mathematics, NSC Mathematics, Statistics Support.</p>
+      </div>
+      <div class="feature">
+        <h3>Affordable Rates</h3>
+        <p>R150/hour – Online Only. Learn anywhere, anytime.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Us</h2>
+    <p>WhatsApp: <a href="https://wa.me/27763099989" target="_blank">+27 76 309 9989</a></p>
+    <p>Email: <a href="mailto:itsjustmathtutor@gmail.com">itsjustmathtutor@gmail.com</a></p>
+
+    <!-- Formspree-powered contact form -->
+    <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 ITSJUSTMATHS Tutoring. All Rights Reserved.</p>
+  </footer>
+
+</body>
+</html>
